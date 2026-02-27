@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import { io } from 'socket.io-client';
 
-const SOCKET_URL = 'http://localhost:3001';
+const SOCKET_URL = 'https://signal-backend-0una.onrender.com';
 
 export const useSocket = () => {
   // 1. Lazy initialization: the arrow function ensures io() is only called ONCE 
